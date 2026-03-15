@@ -17,18 +17,15 @@ A beautiful, lightweight, and floating anime-styled desktop todo list widget bui
 - **HTML5 & CSS3**: Custom animations, transitions, and SVG manipulation.
 - **Vanilla JavaScript**: Lightweight state management and DOM manipulation without external libraries.
 
-## Installation
+## Installation & Running
 
 1. Clone or download this repository.
 2. Ensure you have Node.js installed.
-3. Install dependencies:
+3. Install dependencies by opening PowerShell in the folder and running:
    ```bash
-   npm install
+   powershell.exe -ExecutionPolicy Bypass -Command "npm install"
    ```
-4. Run the application:
-   ```bash
-   npm start
-   ```
+4. **To Run:** You can start the app silently without a terminal by simply double-clicking the included **`AnimeTodo.vbs`** file! Alternatively, you can use `npm start`.
 
 ## Why this app?
 Built to optimize workflow productivity with an appealing interface, demonstrating proficiency in desktop application development, UI/UX design, and vanilla web technologies.

@@ -4,12 +4,26 @@
   "description": "A floating anime-styled desktop todo list widget",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
   },
-  "keywords": ["electron", "todo", "anime", "desktop-widget"],
+  "keywords": [
+    "electron",
+    "todo",
+    "anime",
+    "desktop-widget"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^33.0.0"
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.anime.todo",
+    "productName": "Anime Todo",
+    "win": {
+      "target": "dir"
+    }
   }
 }

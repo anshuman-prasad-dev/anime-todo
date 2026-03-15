@@ -1,0 +1,15 @@
+{
+  "name": "anime-todo",
+  "version": "1.0.0",
+  "description": "A floating anime-styled desktop todo list widget",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["electron", "todo", "anime", "desktop-widget"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
